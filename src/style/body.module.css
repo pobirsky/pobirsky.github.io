@@ -1,0 +1,541 @@
+:root {
+    --gray_200: #cccccc;
+    --gray_300: #b2b2b2;
+    --gray_400: 939393#;
+    --text_secondary: #818c99;
+    --blue_420: #4a76a8;
+    --blue_600: #2a5885;
+    --steel_gray_540: #626d7a;
+    --steel_gray_400: #818c99;
+    --steel_gray_80: #e7e8ec;
+    --steel_gray_100: #dce1e6;
+    --palette-vk-font: -apple-system, BlinkMacSystemFont, Roboto, Open Sans,
+    Helvetica Neue, "Noto Sans Armenian", "Noto Sans Bengali",
+    "Noto Sans Cherfokee", "Noto Sans Devanagari", "Noto Sans Ethiopic",
+    "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans Kannada",
+    "Noto Sans Khmer", "Noto Sans Lao", "Noto Sans Osmanya", "Noto Sans Tamil",
+    "Noto Sans Telugu", "Noto Sans Thai", sans-serif;
+}
+.bodyVk {
+    min-height: 100vh;
+    background: #edeef0;
+}
+.invadis {
+    width: 400px;
+    height: 400px
+}
+.containerItemLeft {
+    /*margin-right: 1rem;*/
+    margin-top: 15px;
+    width: 164px;
+}
+.imgVinyl {
+    width: 40px;
+    border-radius: 50%;
+}
+.containerItemCenter {
+    background: white;
+    margin-right: 1rem;
+    margin-top: 15px;
+    padding: 10px;
+    width: 210px;
+}
+.containerItemRight {
+    flex: 1;
+    width: 440px;
+}
+.sectionContainer {
+    display: flex;
+    flex-direction: row;
+    align-content: start;
+}
+.h6w4 {
+    padding-left: 5px;
+    width: 18px;
+    color: #6f7985;
+}
+.NotificationSvg {
+    color: var(--gray_400);
+    width: 24;
+}
+.container {
+    max-width: 970px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: row;
+    align-content: start;
+}
+
+ul {
+    font-size: 1em;
+    list-style: none;
+    margin: 0;
+    padding-inline-start: 0;
+}
+li a {
+    display:block;
+    color:black;
+    text-decoration:none;
+    font-size: 15px;
+    padding:3px 0 3px 6px;
+    list-style-type: none;
+}
+li a:hover {
+    color:#36638e;
+    background:#dae1e8;
+    text-decoration:none;
+    border-top:1px solid #cad1d9;
+}
+#line {
+    margin-top:3px;
+    padding-top:3px;
+    border-top:2px solid #ccc;
+}
+.menu>svg {
+    max-width: 20px;
+    max-height: 20px;
+    color: lightblue;
+}
+.shelterItem {
+    margin-top: 2px;
+    padding: 0 6px;
+    align-content: center;
+    display: flex;
+    justify-content: left;
+    color: #5181b8;
+}
+.menu {
+    padding-top: 1em;
+}
+.leftMenuItem {
+    height: 30px;
+    line-height: 30px;
+    margin-left: 8px;
+    color: black;
+    font-size: 13px;
+}
+.leftMenuItem2 {
+    color: #626d7a;
+}
+.mainCenterItem {
+    display: flex;
+    flex-shrink: 0;
+    width: 12.5rem;
+    padding-top: 1px;
+}
+.avatar {
+    border-radius: 0.1em;
+    padding: 0.1em;
+    vertical-align: top;
+    max-width: 200px;
+}
+.buttonCenterItem {
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 5%;
+    background-color: #e5ebf1;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 16px 0;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.svgIconSecondPart {
+    color: var(--steel_gray_400);
+    font-Size: 14px;
+    font-weight: 400;
+}
+.FlatbuttonIn {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.lastItemMenu {
+    margin-top: 10px;
+}
+.end {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.cardName {
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 230px;
+    background: white;
+    font-size: 14px;
+    margin-bottom: 1em;
+}
+.friendsHeader {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2px;
+    /*margin-bottom: 1em;*/
+}
+.linkFriendsLeft {
+    color: #2a5885;
+    margin-left: 1em;
+}
+.linkFriendsRight {
+    color: black;
+    margin-right: 1em;
+    color: gray;
+}
+.linkFriendsLeft:hover, .linkFriendsRight:hover {
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+}
+.peopleCellImg {
+    border-radius: 100%;
+    margin-top: 2px;
+}
+.friends {
+    padding: 1em 0;
+    margin-left: 8px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.linkFriend {
+    margin-right: auto;
+    margin-left: auto;
+}
+.hrefLink {
+    padding-top: 2px;
+}
+.Photo, .Post {
+    padding: 0.75rem 0.75rem 0 0.75rem;
+    margin-top: 1em;
+}
+.Profile {
+    padding: 0 0 15px;
+}
+.cardMain {
+    background: white;
+    padding-top: 1em;
+}
+.Profile {
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: space-between;*/
+    border-bottom: 1px solid var(--steel_gray_100);
+}
+.status {
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 13px;
+}
+.mainMain {
+    background: white;
+}
+table {
+    margin-left: 1em;
+    border: 0;
+}
+tr {
+    padding: 1em;
+}
+.pageCounter {
+    text-align: center;
+    padding: 15px;
+}
+.countModules{
+    display: flex;
+    justify-content: space-around;
+}
+[dir] a {
+    cursor: pointer;
+}
+.numberItem {
+    font-size: 19px;
+    line-height: 21px;
+    padding-bottom: 3px;
+}
+.signatureNumber {
+    font-size: 13px;
+    line-height: 15px;
+    color: rgb(98, 109, 122);
+}
+.headerPhoto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pagePhotoModules {
+    margin-left: 1em;
+    margin-right: 1em;
+    display: grid;
+    grid-gap: 6px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.pageSquarePhoto {
+    background-size: cover;
+    overflow: hidden;
+    width: 123px;
+    height: 123px;
+    background-color: #F50000;
+    text-align: center;
+}
+.sideBar {
+    margin: 0 7px 10px 0;
+}
+.moreDiv {
+    margin: 9px 0 0 36px;
+    padding-top: 9px;
+    border-top: 1px solid var(--steel_gray_100);
+}
+.pageSquarePhoto img{
+    /*height: 100%;*/
+    /*width: auto;*/
+    /*max-width: 100%;*/
+}
+.pageBlock {
+    border-radius: 4px;
+    background: white;
+}
+.pageInfoWrap {
+    padding: 0 20px 0 20px;
+}
+.profileOnline {
+    float: right;
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #818c99;
+}
+.pageName {
+    margin: -1px 0 -1px -1px;
+    padding-left: 1px;
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #000000;
+}
+.pageCurrentInfo {
+    padding: 3px 0 1px;
+}
+.currentInfo {
+    cursor: pointer;
+    margin: -4px -6px -4px;
+    padding: 4px 6px 4px;
+    font-size: 12px;
+    color: #818c99;
+}
+.profileInfo {
+    margin: 10px 0;
+}
+.profileInfoRow , .profileInfoMore {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    line-height: 150%;
+}
+.labelFl1 {
+    font-weight: 400;
+    width: 165px;
+    font-size: 13px;
+    margin: 0;
+    color: var(--steel_gray_400);
+}
+.centeer {
+    display: flex;
+}
+
+.profileInfo {
+    /*line-height: 150%;*/
+}
+.labeled {
+    color: #2a5885;
+    font-size: 13px;
+}
+.profileInfoMore {
+    padding: 15px 0;
+    border-bottom: 1px solid var(--steel_gray_100);
+}
+#profileGift {
+    margin-top: 10px;
+    width: 230px;
+    background: white;
+}
+.narrowColumnWrap {
+    width: 240px;
+}
+.headerTop {
+    margin-left: 1em;
+    height: 32px;
+    line-height: 40px;
+    overflow: hidden;
+    font-weight: 400;
+    font-size: 12.5px;
+    /*padding: 0 15px;*/
+}
+.moduleBody {
+    padding: 12px 12px 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: normal;
+}
+.pageBlock {
+    margin: 15px 0 0;
+    background: white;
+}
+.headerRightLink {
+    float: right;
+    margin-top: 9px;
+    margin-right: 20px;
+    padding: 2px;
+    color: rgb(129, 140, 153);
+    font-size: 13px
+}
+.photosModule {
+    background: white;
+}
+.photoModuleLvl1 {
+    padding: 13px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mol {
+    margin-left: 6px;
+}
+
+.PostHeader {
+    display: flex;
+    padding: 15px 20px 0;
+}
+.postImageStories {
+    border-radius: 50%;
+}
+.headerImage {
+    margin-right: 15px;
+}
+.PostHeaderInfo {
+    padding-top: 8px;
+}
+.PostHeaderInfo {
+    line-height: 1.2;
+}
+.postDate {
+    color: #818c99;
+    font-size: 12px;
+}
+.postAutor {
+    color: var(--blue_600);
+    font-size: 14px;
+    line-height: 16px;
+    white-space: initial;
+}
+.PostPost {
+    /*display: flex;*/
+    margin: 10px 0 0 40px  ;
+
+    border-left: 1px solid lightgray;
+}
+.flex {
+    display: flex;
+}
+.postMainPl {
+    font-weight:400;
+    font-size: 13px;
+}
+.copyQuote {
+    margin-left: 7px;
+    width: 400px;
+}
+.tag {
+    color: var(--blue_420);
+    font-size: 13px;
+}
+.audioRowContainer {
+    display: flex;
+    flex-shrink: 1;
+    flex-grow: 1;
+
+}
+.audioName {
+    color: var(--blue_600)
+}
+.audioRowInner {
+    width: 380px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-left: 5px;
+}
+.play {
+    color: var(--blue_420)
+}
+.audioTimer {
+    margin-left: auto;
+    color: gray;
+    font: 12px;
+}
+.track {
+    display: flex;
+}
+.likesMain {
+    margin-top: 10px;
+    display: flex;
+}
+.like, .share {
+    padding: 4px 12px;
+    background-color: #f0f2f5;;
+    border-radius: 32px;
+}
+.likesContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.likesCountContainer {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.likeCount {
+    font-size: 12px;
+    color: var(--gray_400);
+}
+.audioName, .audioAlbom {
+    margin-left: 5px;
+}
+.friend {
+    text-align: center;
+    width: 60px;
+}
+.center1 {
+    position: relative;
+    display: block;
+    width: 230px;
+}
+.containerItemRight {
+    position: relative;
+    display: block;
+    width: 510px;
+    float: right;
+    margin-left: 15px;
+}
+.centeer {
+    display: flex;
+}
+.wrapContainer {
+    width: 920px;
+}
+@font-face {
+    font-family: VK Sans; /* Имя шрифта */
+    /*src: url("./fonts/VK.ttf"); !* Путь к файлу со шрифтом *!*/
+    /*font-weight: normal;*/
+}

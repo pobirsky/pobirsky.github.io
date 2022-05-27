@@ -5,7 +5,7 @@ const style = {
   },
 };
 
-export function Mybody() {
+export function News() {
   return (
     <svg
       style={style.svg}

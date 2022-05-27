@@ -5,7 +5,7 @@ const style = {
   }
 }
 
-export function PlayerPlay() {
+export function HeaderPlayerPlay() {
   return (
     <svg
       style={style.svg}

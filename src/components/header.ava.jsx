@@ -8,7 +8,7 @@ const style = {
   },
 };
 
-export function Ava() {
+export function HeaderAva() {
   return (
     <img
       style={style.svg}
