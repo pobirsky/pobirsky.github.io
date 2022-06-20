@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vk.com-React" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/vr_react_may" vcs="Git" />
   </component>
 </project>

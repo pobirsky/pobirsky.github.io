@@ -1,4 +1,4 @@
-import bodyStyles from "../style/body.module.css";
+import bodyStyles from "../../styles/body.module.css";
 
 export function Memories() {
   return(

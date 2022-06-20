@@ -1,10 +1,13 @@
 const styles = {
   svg: {
-    color: "gray"
+    color: "gray",
+    width: "24",
+    height: "24",
+    padding: "0",
   },
 };
 
-export function LikeIcon2() {
+export function LikeIconDefault() {
   return (
     <svg
       style={styles.svg}

@@ -9,6 +9,7 @@
     --steel_gray_400: #818c99;
     --steel_gray_80: #e7e8ec;
     --steel_gray_100: #dce1e6;
+    --separator_common: #dce1e6;
     --palette-vk-font: -apple-system, BlinkMacSystemFont, Roboto, Open Sans,
     Helvetica Neue, "Noto Sans Armenian", "Noto Sans Bengali",
     "Noto Sans Cherfokee", "Noto Sans Devanagari", "Noto Sans Ethiopic",
@@ -112,6 +113,7 @@ li a:hover {
     padding-top: 1em;
 }
 .leftMenuItem {
+    padding: 0;
     height: 30px;
     line-height: 30px;
     margin-left: 8px;
@@ -348,6 +350,28 @@ tr {
     margin: 0;
     color: var(--steel_gray_400);
 }
+.profileInfoHeaderWrap {
+    border-bottom: none;
+    margin: -15px 0 4px;
+}
+.profileMoreInfoLink {
+    font-weight: 400;
+    width: 165px;
+    font-size: 13px;
+    margin: 0;
+    color: var(--steel_gray_400);
+    padding-left: 165px;
+}
+.profileInfoHeader {
+    font-size: 13px;
+    display: inline;
+    font-weight: 400;
+    background-color: white;
+}
+.profileInfoBlock {
+    padding: 0 0 29px;
+    border-top: 1px solid var(--separator_common);
+}
 .centeer {
     display: flex;
 }
@@ -358,6 +382,8 @@ tr {
 .labeled {
     color: #2a5885;
     font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .profileInfoMore {
     padding: 15px 0;
@@ -495,6 +521,7 @@ tr {
     background-color: #f0f2f5;;
     border-radius: 32px;
 }
+
 .likesContainer {
     display: flex;
     justify-content: space-between;
@@ -508,6 +535,16 @@ tr {
 .likeCount {
     font-size: 12px;
     color: var(--gray_400);
+    margin-top: -3px;
+}
+.likeCountActive {
+    font-size: 12px;
+    color: orangered;
+    margin: 3px;
+}
+.likesFlex {
+    display: flex;
+    align-items: center
 }
 .audioName, .audioAlbom {
     margin-left: 5px;

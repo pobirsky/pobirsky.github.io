@@ -1,10 +1,4 @@
-const style = {
-  svg: {
-    width: "20",
-    height: "30",
-    color: "#5181b8",
-  },
-};
+
 
 export function Musics() {
   return (
