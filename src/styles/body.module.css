@@ -576,3 +576,8 @@ tr {
     /*src: url("./fonts/VK.ttf"); !* Путь к файлу со шрифтом *!*/
     /*font-weight: normal;*/
 }
+.uiTabs {
+    padding: 0 10px;
+    margin: 15px 0 0;
+    background: white;
+}

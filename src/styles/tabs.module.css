@@ -1,0 +1,52 @@
+:root {
+    --gray_200: #cccccc;
+    --gray_300: #b2b2b2;
+    --gray_400: 939393#;
+    --text_secondary: #818c99;
+    --blue_420: #4a76a8;
+    --blue_600: #2a5885;
+    --steel_gray_540: #626d7a;
+    --steel_gray_400: #818c99;
+    --steel_gray_80: #e7e8ec;
+    --steel_gray_100: #dce1e6;
+    --separator_common: #dce1e6;
+    --palette-vk-font: -apple-system, BlinkMacSystemFont, Roboto, Open Sans,
+    Helvetica Neue, "Noto Sans Armenian", "Noto Sans Bengali",
+    "Noto Sans Cherfokee", "Noto Sans Devanagari", "Noto Sans Ethiopic",
+    "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans Kannada",
+    "Noto Sans Khmer", "Noto Sans Lao", "Noto Sans Osmanya", "Noto Sans Tamil",
+    "Noto Sans Telugu", "Noto Sans Thai", sans-serif;
+}
+.tabContent {
+}
+
+.tabButton:hover {
+    background-color: green;
+}
+
+
+.tabButton.active {
+    background-color: white;
+}
+
+.tabLinks:hover {
+    cursor: pointer;
+}
+.tabLinks {
+    color: var(--steel_gray_400);
+    font-size: 12px;
+    transition: color .2s ease;
+    padding: 16px 6px 15px;
+    margin: 0 4px -1px;
+    background: white;
+    border: none;
+}
+
+.uiTab {
+    padding: 0 10px;
+}
+
+.active {
+    border-bottom: 2px solid #2a5885;
+    color: black;
+}

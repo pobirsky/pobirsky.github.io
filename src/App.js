@@ -10,7 +10,8 @@ import { Routes, Route } from "react-router-dom";
 import { News } from "./components/pages/AboutPage";
 import { NotFoundPage } from "./components/pages/NotFoundPage";
 import { BlockPage } from "./components/pages/Blockpage";
-import Login from "./components/login"
+// import Login from "./components/login"
+import FormikLogin from "./components/LoginFormik";
 
 /* eslint-disable */
 function App() {
@@ -21,15 +22,13 @@ function App() {
         <div className={cn(bodyStyles.bodyVk, bodyStyles.container)}>
           <div className={bodyStyles.sectionContainer}>
             <Sidebar />
-            <>
               <Routes>
-                <Route path="/" element={<Login/>} />
+                <Route path="/login" element={<FormikLogin/>} />
                 <Route path="/main" element={<Centeer />} />
                 <Route path="/news" element={<News />} />
                 <Route path="/posts" element={<BlockPage />} />
                 <Route path="*" element={<NotFoundPage />} />
               </Routes>
-            </>
           </div>
         </div>
       </div>

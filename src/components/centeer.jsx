@@ -18,6 +18,8 @@ import {MainAudio} from "./svgComponents/main.audio";
 import {LikeAction} from "./svgComponents/likes";
 import {Share} from "./svgComponents/main.shaire";
 import {LikeIcon} from "./svgComponents/main.like";
+import Tabs from "../components/ui/Tabs";
+import {items} from './ui/helperTabs.js'
 
 const Centeer = () => {
   return (
@@ -260,7 +262,13 @@ const Centeer = () => {
               <FourthPhoto/>
             </div>
           </div>
+
         </div>
+
+        <div className={bodyStyles.pageBlock}>
+          <Tabs items={items}/>
+        </div>
+
 
         <div className={cn(bodyStyles.mainPost, bodyStyles.pageBlock)}>
           <div className={bodyStyles.PostHeader}>
@@ -342,5 +350,6 @@ const Centeer = () => {
     </div>
   )
 }
+
 
 export default Centeer;
