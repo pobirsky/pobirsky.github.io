@@ -2,10 +2,11 @@ import React, {useState} from "react";
 import {data} from "./mockData";
 
 const StatePost = () => {
+ const [state, setState]= useState(data);
 
   return (
     <div>
-      {data.map(({title, id, text}) => {
+      {state.map(({title, id, text}) => {
         return (
          <div>
            <div id={id}>{title}</div>
