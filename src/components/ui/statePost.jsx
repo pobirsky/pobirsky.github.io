@@ -6,10 +6,12 @@ const StatePost = () => {
   return (
     <div>
       {data.map(({title, id, text}) => {
-        <div>
-          <div id={id}>{title}</div>
-          <span id={id}>{text}</span>
-        </div>
+        return (
+         <div>
+           <div id={id}>{title}</div>
+           <span id={id}>{text}</span>
+         </div>
+      )
       })}
     </div>
   );
