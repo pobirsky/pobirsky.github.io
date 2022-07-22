@@ -3,8 +3,6 @@ import {data} from "./mockData";
 
 const StatePost = () => {
 
-  const [state, setState] = useState([data])
-
   return (
     <div>
       {data.map(({title, id, text}) => {
