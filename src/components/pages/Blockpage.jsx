@@ -1,8 +1,10 @@
+import React from 'react';
+import statePost from "../ui/statePost";
+
 const BlockPage = () => {
   return (
     <div>
-      <h1>Разные посты</h1>
-      <span>Данил 29 июня летит в Питер</span>
+      <statePost/>
     </div>
   )
 }

@@ -21,7 +21,7 @@ import {LikeIcon} from "./svgComponents/main.like";
 import Tabs from "../components/ui/Tabs";
 import {items} from './ui/helperTabs.js'
 
-const Centeer = () => {
+const Main = () => {
   return (
     <div className={bodyStyles.centeer}>
       <div className={bodyStyles.center1}>
@@ -352,4 +352,4 @@ const Centeer = () => {
 }
 
 
-export default Centeer;
+export default Main;

@@ -49,9 +49,7 @@ const Sidebar = () => {
           <li>
             <a href="" className={bodyStyles.shelterItem}>
               <Calls />
-              <Link to="*" className={bodyStyles.leftMenuItem}>
-                Звонки
-              </Link>
+              <span className={bodyStyles.leftMenuItem}>Музыка</span>
             </a>
           </li>
           <li>
