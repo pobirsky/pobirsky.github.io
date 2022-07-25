@@ -16,5 +16,13 @@
     width: 100%;
     padding: 5px 15px;
     margin: 5px 0;
-    border: 1px solid teal;
+    border: 1px solid olive;
+}
+
+.myBtn {
+    padding: 5px 15px;
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid olive;
+    cursor: pointer;
 }

@@ -1,10 +1,22 @@
-import React from 'react';
+import React, {useState} from 'react';
 import PostList from "../ui/PostList";
+import {data} from "../ui/mockData";
 
 const BlockPage = () => {
+
+  const [posts, setPost] = useState(data);
+
+  const createPost = (newPost) => {
+    setPost([...posts, newPost])
+  }
+
+  const removePost = (post) => {
+    setPost(posts.filter(p => p.id !== post.id))
+  }
+
   return (
     <div>
-      <PostList/>
+      <PostList create={createPost} posts={posts} remove={removePost}/>
     </div>
   )
 }

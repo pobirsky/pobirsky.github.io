@@ -1,18 +1,18 @@
 import React from "react";
 import styles from "../../styles/ui.module.css";
 
-const PostItem = (props) => {
-  return (
-    <div className={styles.post}>
-      <div style={{ padding: "25px" }}>
-        <h2 id={props.id}>{props.title}</h2>
-        <span id={props.id}>{props.body}</span>
+const PostItem = ({post, remove}) => {
+    return(
+      <div className={styles.post}>
+        <div style={{ padding: "15px" }}>
+          <h2 id={post.id}>{post.title}</h2>
+          <span id={post.id}>{post.body}</span>
+        </div>
+        <div className="postBtn">
+          <button onClick={() => remove(post)}>Удалить</button>
+        </div>
       </div>
-      <div>
-        <button>Удалить</button>
-      </div>
-    </div>
-  );
+    );
 };
 
 export default PostItem;
