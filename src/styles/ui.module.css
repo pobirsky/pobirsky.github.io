@@ -1,0 +1,20 @@
+.post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-top: 20px;
+    border: 1px olive solid;
+}
+.wrapperPostItem {
+    display: flex;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.myInput {
+    width: 100%;
+    padding: 5px 15px;
+    margin: 5px 0;
+    border: 1px solid teal;
+}

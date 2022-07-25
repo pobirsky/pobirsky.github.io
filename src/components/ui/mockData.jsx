@@ -1,7 +1,7 @@
 export const data = [
   {
     id: '1',
-    text: <div>Кто-то прилетает</div>,
+    body: <div>Кто-то прилетает</div>,
     image: ['url1', 'url2'],
     likes: 45,
     author: 'Petya',
@@ -15,7 +15,7 @@ export const data = [
   },
   {
     id: '2',
-    text: <div>Кто-то улетает</div>,
+    body: <div>Кто-то улетает</div>,
     image: ['url1', 'url2'],
     likes: 45,
     author: 'Petya',
@@ -30,7 +30,7 @@ export const data = [
   },
   {
     id: '3',
-    text: <div>Кто-то жив</div>,
+    body: <div>Кто-то жив</div>,
     image: ['url1', 'url2'],
     likes: 45,
     author: 'Petya',

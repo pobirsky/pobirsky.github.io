@@ -1,10 +1,10 @@
 import React from 'react';
-import statePost from "../ui/statePost";
+import PostList from "../ui/PostList";
 
 const BlockPage = () => {
   return (
     <div>
-      <statePost/>
+      <PostList/>
     </div>
   )
 }
