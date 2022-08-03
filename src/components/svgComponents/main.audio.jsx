@@ -1,10 +1,5 @@
 import bodyStyles from "../../styles/body.module.css";
 
-const styles = {
-  svg: {
-    color: "939393#",
-  },
-};
 
 export function MainAudio() {
   return (

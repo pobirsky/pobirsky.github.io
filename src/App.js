@@ -5,12 +5,7 @@ import styles from "./styles/header.module.css";
 import bodyStyles from "./styles/body.module.css";
 import Header from "./components/header";
 import Sidebar from "./components/sidebar";
-import Main from "./components/centeer";
-import { Routes, Route } from "react-router-dom";
-import News from "./components/pages/AboutPage";
-import { NotFoundPage } from "./components/pages/NotFoundPage";
-import { BlockPage } from "./components/pages/Blockpage";
-import FormikLogin from "./components/LoginFormik";
+import AppRouter from "./components/router/appRouter";
 
 /* eslint-disable */
 function App() {
@@ -21,12 +16,7 @@ function App() {
         <div className={cn(bodyStyles.bodyVk, bodyStyles.container)}>
           <div className={bodyStyles.sectionContainer}>
             <Sidebar />
-              <Routes>
-                <Route path="/login" element={<FormikLogin/>} />
-                <Route path="/main" element={<Main />} />
-                <Route path="/news" element={<BlockPage />} />
-                <Route path="*" element={<Main />} />
-              </Routes>
+            <AppRouter/>
           </div>
         </div>
       </div>
