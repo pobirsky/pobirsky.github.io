@@ -26,3 +26,11 @@
     border: 1px solid olive;
     cursor: pointer;
 }
+.friendItem {
+    display: flex;
+    width: ;
+}
+.friendItemAva {
+    width: 40px;
+    border-radius: 50%;
+}

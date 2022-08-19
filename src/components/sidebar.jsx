@@ -23,7 +23,7 @@ const Sidebar = () => {
       <div className={bodyStyles.sideBar}>
         <ul>
           <li>
-            <a href="" className={bodyStyles.shelterItem}>
+            <a href="/#" className={bodyStyles.shelterItem}>
               <Mybody />
               <Link to="/main" className={bodyStyles.leftMenuItem}>
                 Моя страница
@@ -31,7 +31,7 @@ const Sidebar = () => {
             </a>
           </li>
           <li>
-            <a href="" className={bodyStyles.shelterItem}>
+            <a href="/#" className={bodyStyles.shelterItem}>
               <News />
               <Link to="/news" className={bodyStyles.leftMenuItem}>
                 Новости
@@ -39,7 +39,7 @@ const Sidebar = () => {
             </a>
           </li>
           <li>
-            <a href="" className={bodyStyles.shelterItem}>
+            <a href="/#" className={bodyStyles.shelterItem}>
               <Messanger />
               <Link to="/posts" className={bodyStyles.leftMenuItem}>
                 Мессенджер
@@ -47,61 +47,63 @@ const Sidebar = () => {
             </a>
           </li>
           <li>
-            <a href="" className={bodyStyles.shelterItem}>
+            <a href="/#" className={bodyStyles.shelterItem}>
               <Calls />
               <span className={bodyStyles.leftMenuItem}>Музыка</span>
             </a>
           </li>
           <li>
-            <a href="" className={bodyStyles.shelterItem}>
+            <a href="/#" className={bodyStyles.shelterItem}>
               <Friends />
-              <span className={bodyStyles.leftMenuItem}>Друзья</span>
+              <Link to="/reduxToolkit" className={bodyStyles.leftMenuItem}>
+                Друзья
+              </Link>
             </a>
           </li>
           <li>
-            <a href="" className={bodyStyles.shelterItem}>
+            <a href="/#" className={bodyStyles.shelterItem}>
               <Commmunities />
               <span className={bodyStyles.leftMenuItem}>Сообщества</span>
             </a>
           </li>
           <li>
-            <a href="" className={bodyStyles.shelterItem}>
+            <a href="/#" className={bodyStyles.shelterItem}>
               <Photos />
               <span className={bodyStyles.leftMenuItem}>Фотографии</span>
             </a>
           </li>
           <li>
-            <a href="" className={bodyStyles.shelterItem}>
+            <a href="/#" className={bodyStyles.shelterItem}>
               <Musics />
               <span className={bodyStyles.leftMenuItem}>Музыка</span>
             </a>
           </li>
           <li>
-            <a href="" className={bodyStyles.shelterItem}>
+            <a href="/#" className={bodyStyles.shelterItem}>
               <Videos />
               <span className={bodyStyles.leftMenuItem}>Видео</span>
             </a>
           </li>
           <li>
-            <a href="" className={bodyStyles.shelterItem}>
+            <a href="/#" className={bodyStyles.shelterItem}>
               <Clips />
               <span className={bodyStyles.leftMenuItem}>Клипы</span>
             </a>
           </li>
           <li>
-            <a href="" className={bodyStyles.shelterItem}>
+            <a href="/#" className={bodyStyles.shelterItem}>
               <Games />
               <span className={bodyStyles.leftMenuItem}>Игры</span>
             </a>
           </li>
           <li>
-            <a href="" className={bodyStyles.shelterItem}>
+            <a href="/#" className={bodyStyles.shelterItem}>
               <Stick />
               <span className={bodyStyles.leftMenuItem}>Стикеры</span>
             </a>
           </li>
           <li>
-            <a href="" className={bodyStyles.shelterItem}>
+            <a href="/#" className={bodyStyles.shelterItem}>
               <Ajs />
               <span className={bodyStyles.leftMenuItem}>Обьявление</span>
             </a>
@@ -110,19 +112,19 @@ const Sidebar = () => {
         <div className={bodyStyles.moreDiv} />
         <ul>
           <li>
-            <a href="" className={bodyStyles.shelterItem}>
+            <a href="/#" className={bodyStyles.shelterItem}>
               <Mini />
               <span className={bodyStyles.leftMenuItem}>Мини приложения</span>
             </a>
           </li>
           <li>
-            <a href="" className={bodyStyles.shelterItem}>
+            <a href="/#" className={bodyStyles.shelterItem}>
               <VkPay />
               <span className={bodyStyles.leftMenuItem}>VK Pay</span>
             </a>
           </li>
           <li>
-            <a href="" className={bodyStyles.shelterItem}>
+            <a href="/#" className={bodyStyles.shelterItem}>
               <Work />
               <Link to="/login" className={bodyStyles.leftMenuItem}>
                 Выйти

@@ -1,7 +1,6 @@
 import React, {FC} from 'react';
 import {IPost} from "../models/IPost";
 
-
 interface PostItemProps {
     post: IPost;
     remove: (post: IPost) => void;
