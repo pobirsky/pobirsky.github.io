@@ -9,7 +9,7 @@ import {Ball} from "./svgComponents/main.ball";
 import {Calendar} from "./svgComponents/main.calendar";
 import {Win} from "./svgComponents/main.win";
 import {Mihail, Nikita, Oleg, Sasha, Serega, Taya} from "./svgComponents/main.avaFriends";
-import ButtonDetails from "./apps/buttonDetails";
+import ButtonDetails from "./apps/ButtonDetails";
 import {FirstPhoto, FourthPhoto, SecondPhoto, ThirdPhoto} from "./svgComponents/main.midulePhoto";
 import {Danil} from "./svgComponents/main.danil";
 import {MainImgVin} from "./svgComponents/main.imgVin";

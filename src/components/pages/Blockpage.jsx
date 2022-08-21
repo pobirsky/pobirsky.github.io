@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import PostList from "../ui/PostList";
-import {data} from "../ui/mockData";
+import {data} from "../ui/MockData";
 
 const BlockPage = () => {
 

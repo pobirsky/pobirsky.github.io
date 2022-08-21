@@ -1,8 +1,8 @@
 import * as React from 'react'
 import {useEffect, useState} from 'react';
-import {friendAPI} from "../services/PostService";
-import FriendItem from "./ui/FriendItem";
-import {IFriend} from "../models/IFriend";
+import {friendAPI} from "../../../services/PostService";
+import FriendItem from "./FriendItem";
+import {IFriend} from "../../../models/IFriend";
 
 const FriendsContainer = () => {
     const [limit] = useState(100);
@@ -33,6 +33,7 @@ const FriendsContainer = () => {
     return (
         <div>
             <div className="post">
+
                 <button onClick={handleCreate}>Добавить нового друга</button>
                 {isLoading && <h1>Идет загрузка...</h1>}
                 {error && <h1>Произошла ошибка при загрузке</h1>}

@@ -6,7 +6,7 @@ let styles = {
     marginTop: '25px',
 };
 
-function Friends() {
+function FriendsWrap() {
     return (
         <div style={styles}>
             <div style={{display: 'flex'}}>
@@ -17,4 +17,4 @@ function Friends() {
     );
 }
 
-export default Friends;
+export default FriendsWrap;

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {FC} from 'react';
-import {IFriend} from "../../models/IFriend";
+import {IFriend} from "../../../models/IFriend";
 
 interface FriendItemProps {
     friend: IFriend;
