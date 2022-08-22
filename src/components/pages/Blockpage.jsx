@@ -1,24 +1,23 @@
-import React, {useState} from 'react';
+import React, { useCallback, useState } from "react";
 import PostList from "../ui/PostList";
-import {data} from "../ui/MockData";
+import { data } from "../ui/MockData";
 
 const BlockPage = () => {
-
   const [posts, setPost] = useState(data);
 
-  const createPost = (newPost) => {
-    setPost([...posts, newPost])
-  }
+  const createPost = useCallback((newPost) => {
+    setPost([...posts, newPost]);
+  }, [posts]);
 
   const removePost = (post) => {
-    setPost(posts.filter(p => p.id !== post.id))
-  }
+    setPost(posts.filter((p) => p.id !== post.id));
+  };
 
   return (
     <div>
-      <PostList create={createPost} posts={posts} remove={removePost}/>
+      <PostList create={createPost} posts={posts} remove={removePost} />
     </div>
-  )
-}
+  );
+};
 
-export {BlockPage}
+export default React.memo(BlockPage);

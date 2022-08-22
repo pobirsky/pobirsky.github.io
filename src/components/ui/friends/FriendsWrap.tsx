@@ -1,14 +1,10 @@
 import * as React from 'react';
 import FriendsContainer from "./FriendsContainer";
-import FriendsOnlineContainer from "./FriendsOnlineContainer";
-
-let styles = {
-    marginTop: '25px',
-};
+// import FriendsOnlineContainer from "./FriendsOnlineContainer";
 
 function FriendsWrap() {
     return (
-        <div style={styles}>
+        <div>
             <div style={{display: 'flex'}}>
                 <FriendsContainer/>
                 {/*<FriendsOnlineContainer/>*/}

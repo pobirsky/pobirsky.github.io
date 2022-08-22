@@ -6,4 +6,4 @@ const Homepage = () => {
   )
 }
 
-export {Homepage}
+export default React.memo(Homepage);

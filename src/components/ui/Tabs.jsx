@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useCallback, useState} from "react";
 import tabsStyles from "../../styles/tabs.module.css";
 import cn from "classnames";
 
@@ -12,9 +12,9 @@ const TabContent = ({ title, content }) => (
 const Tabs = ({ items }) => {
   const [ active, setActive ] = useState(null);
 
-  const openTab = (e) => {
+  const openTab = useCallback((e) => {
     setActive(+e.target.dataset.index);
-  };
+  }, [])
 
   return (
     <div className={cn(tabsStyles.uiTab)}>
@@ -32,4 +32,4 @@ const Tabs = ({ items }) => {
   );
 }
 
-export default Tabs;
+export default React.memo(Tabs);

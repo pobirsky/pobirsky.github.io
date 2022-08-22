@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, {useCallback, useState} from "react";
 import MyInput from "./MyInput";
 
 const PostForm = ({ create }) => {
   const [post, setPost] = useState({ title: "", body: "" });
 
-  const addNewPost = (e) => {
+  const addNewPost = useCallback((e) => {
     e.preventDefault();
     const newPost = {
       ...post,
@@ -13,7 +13,7 @@ const PostForm = ({ create }) => {
     console.log(newPost)
     create(newPost);
     setPost({ title: "", body: "" });
-  };
+  },[post, create])
 
   return (
     <form>

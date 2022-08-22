@@ -7,9 +7,9 @@ import {IFriend} from "../../../models/IFriend";
 const FriendsContainer = () => {
     const [limit] = useState(100);
     const {data: friends, error, isLoading} =  friendAPI.useFetchAllPostsQuery(limit)
-    const [createPost, {}] = friendAPI.useCreatePostMutation()
-    const [updatePost, {}] = friendAPI.useUpdatePostMutation()
-    const [deletePost, {}] = friendAPI.useDeletePostMutation()
+    const [createPost] = friendAPI.useCreatePostMutation()
+    const [updatePost] = friendAPI.useUpdatePostMutation()
+    const [deletePost] = friendAPI.useDeletePostMutation()
 
     useEffect(() => {
         // setTimeout(() => {

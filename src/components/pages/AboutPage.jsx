@@ -1,4 +1,5 @@
 import Tabs from "../ui/Tabs";
+import React from "react";
 
 const News = () => {
   return (
@@ -10,4 +11,4 @@ const News = () => {
   )
 }
 
-export default News;
+export default React.memo(News);

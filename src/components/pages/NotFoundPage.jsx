@@ -1,4 +1,5 @@
 import {Link} from 'react-router-dom';
+import React from "react";
 
 const NotFoundPage = () => {
   return (
@@ -8,4 +9,4 @@ const NotFoundPage = () => {
   )
 }
 
-export {NotFoundPage}
+export default React.memo(NotFoundPage);
